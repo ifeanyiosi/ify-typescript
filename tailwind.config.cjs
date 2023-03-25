@@ -31,6 +31,9 @@ module.exports = {
         sm: "768px",
         md: "1060px",
       },
+      content: {
+        logotext: "IFEANYIOSI",
+      },
     },
   },
   plugins: [],

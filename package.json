@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "formik": "^2.2.9",
+    "formik-antd": "^2.0.4",
     "framer-motion": "^10.6.0",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "1.0.12",

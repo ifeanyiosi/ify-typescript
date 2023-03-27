@@ -37,7 +37,9 @@ const LandingPage = ({ setSelectedPage }: Props) => {
             <div className="relative">
               <div className="flex flex-col before:absolute before:-top-20 before:content-logotext">
                 <span className="text-[80px] font-bold">IFEANYI</span>
-                <span className="text-[40px]">evolutionary app.</span>
+                <span className="text-[40px]">
+                  The Better Way to Save & Invest.
+                </span>
               </div>
             </div>
             <p className="mt-8 md:text-start">

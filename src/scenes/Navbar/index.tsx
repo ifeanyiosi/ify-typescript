@@ -28,7 +28,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6  `}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* Left side */}
-            <button className="font-bold text-[20px]">IFEANYI</button>
+            <button className="text-[20px] font-bold">IFEANYI</button>
 
             {/* Right */}
             {isAboveMediumScreens ? (
@@ -45,7 +45,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="FAQs"
+                    page="Payments"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />

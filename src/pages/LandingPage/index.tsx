@@ -38,13 +38,13 @@ const LandingPage = ({ setSelectedPage }: Props) => {
               <div className="flex flex-col before:absolute before:-top-20 before:content-logotext">
                 <span className="text-[80px] font-bold">IFEANYI</span>
                 <span className="text-[40px]">
-                  The Better Way to Save & Invest.
+                  The Better Way to Send/Recieve money & Invest.
                 </span>
               </div>
             </div>
             <p className="mt-8 md:text-start">
-              This app helps over 4 million customers achieve their financial
-              goals by helping them save and invest with ease.
+              This app helps over 4 million customers manage their cash, shop &
+              get paid with ease.
             </p>
           </motion.div>
           {/* ACTIONS */}

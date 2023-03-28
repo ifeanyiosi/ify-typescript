@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
 import LandingPage from "../LandingPage";
 import Invest from "../Invest";
-import FAQ from "../FAQ";
+import Payments from "../Payments";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -32,7 +32,7 @@ const Home = () => {
       />
       <LandingPage setSelectedPage={setSelectedPage} />
       <Invest setSelectedPage={setSelectedPage} />
-      <FAQ setSelectedPage={setSelectedPage} />
+      <Payments setSelectedPage={setSelectedPage} />
     </div>
   );
 };

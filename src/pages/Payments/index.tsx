@@ -5,12 +5,12 @@ type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-const FAQ = ({ setSelectedPage }: Props) => {
+const Payments = ({ setSelectedPage }: Props) => {
   return (
     <section id="faqs" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
       <motion.div
         className=" md:flex md:h-5/6"
-        onViewportEnter={() => setSelectedPage(SelectedPage.FAQs)}
+        onViewportEnter={() => setSelectedPage(SelectedPage.Payments)}
       >
         kill me
       </motion.div>
@@ -18,4 +18,4 @@ const FAQ = ({ setSelectedPage }: Props) => {
   );
 };
 
-export default FAQ;
+export default Payments;

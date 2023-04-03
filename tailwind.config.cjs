@@ -22,7 +22,20 @@ module.exports = {
         "secondary-400": "#FFCD5B",
         "secondary-500": "#FFC132",
         "button-primary": "#0c1825",
+        success: {
+          1: "#00EE8A",
+          2: "#EBFFF6",
+        },
+        warning: {
+          1: "#FFF7EB",
+          2: "#FA710F",
+        },
+        error: {
+          1: "#EE0000",
+          2: "#FFF5F5",
+        },
       },
+
       fontFamily: {
         Syne: ["Poppins", "sans-serif"],
       },

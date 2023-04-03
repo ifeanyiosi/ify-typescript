@@ -15,9 +15,9 @@ type Props = {
 const Invest = ({ setSelectedPage }: Props) => {
   const navigate = useNavigate();
   return (
-    <section id="invest" className="mx-auto min-h-full  w-5/6 py-20">
+    <section id="invest" className="mx-auto min-h-full   w-5/6 py-20">
       <motion.div
-        className=" md:flex md:h-5/6"
+        className=" md:flex  md:h-5/6"
         onViewportEnter={() => setSelectedPage(SelectedPage.Invest)}
       >
         <div className="mt-10 flex flex-col items-center justify-center lg:mt-32 lg:items-start lg:justify-start md:basis-3/5">

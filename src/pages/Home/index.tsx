@@ -4,6 +4,7 @@ import { SelectedPage } from "@/shared/types";
 import LandingPage from "../LandingPage";
 import Invest from "../Invest";
 import Payments from "../Payments";
+import Footer from "../Footer";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -31,8 +32,9 @@ const Home = () => {
         setSelectedPage={setSelectedPage}
       />
       <LandingPage setSelectedPage={setSelectedPage} />
-      <Invest setSelectedPage={setSelectedPage} />
       <Payments setSelectedPage={setSelectedPage} />
+      <Invest setSelectedPage={setSelectedPage} />
+      <Footer setSelectedPage={setSelectedPage} />
     </div>
   );
 };

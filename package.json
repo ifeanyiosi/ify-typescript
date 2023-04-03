@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "antd": "4.22.3",
     "formik": "^2.2.9",
     "formik-antd": "^2.0.4",
     "framer-motion": "^10.6.0",

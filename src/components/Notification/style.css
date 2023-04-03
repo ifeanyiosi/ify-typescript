@@ -1,0 +1,96 @@
+.ant-notification-notice-message {
+  position: absolute;
+
+}
+
+.ant-notification-notice-description {
+  position: relative;
+  margin: 0 !important;
+  color: #435265;
+  font-size: 14px;
+  font-family: 'Beautiste';
+  word-wrap: break-word;
+  padding: 10px;
+  width: 100%;
+}
+
+.ant-notification-notice-icon-error {
+  background-color: #ee0000;
+  position: relative;
+  height: 100% !important;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+.ant-notification-notice-icon-warning {
+  background-color: theme('colors.warning.2');
+  position: relative;
+  height: 100% !important;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+.ant-notification-notice-icon-error {
+  background-color: theme('colors.error.1');
+  position: relative;
+  height: 100% !important;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+
+.ant-notification-notice-icon-success {
+  background-color: theme('colors.success.1');
+  position: relative;
+  height: 100% !important;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+.ant-notification-notice-content {
+
+  padding: 0 !important;
+  display: flex;
+}
+
+
+
+
+.ant-notification-notice-with-icon {
+
+  padding: 0 !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 !important;
+
+}
+
+.ant-notification-notice-with-icon svg {
+  color: theme('colors.white');
+}
+
+.ant-notification-notice-close {
+  top: 20%;
+
+
+}
+
+.ant-btn {
+  background-color: #f6fafd;
+  font-weight: bold;
+  color: #001c3d;
+  border-radius: 8px;
+}

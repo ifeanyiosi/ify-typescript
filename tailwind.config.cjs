@@ -37,7 +37,7 @@ module.exports = {
       },
 
       fontFamily: {
-        Syne: ["Poppins", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
       screens: {
         xs: "480px",
